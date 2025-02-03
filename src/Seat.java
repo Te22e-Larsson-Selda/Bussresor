@@ -1,4 +1,5 @@
 public class Seat {
+
     private int number;
     private Bus bus;
     private boolean booked;

@@ -9,6 +9,9 @@ public class BookingSystem {
 
     public BookingSystem() {
 
+        Bus bus = new Bus("Stockholm",10);
+
+
     }
 
     public void menu() {
@@ -17,7 +20,10 @@ public class BookingSystem {
 
     public void createBooking() {
 
+
+
     }
+
 
 
 }

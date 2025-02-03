@@ -4,8 +4,9 @@ public class Bus {
     private ArrayList<Seat> seats;
     private String destination;
 
-    public Bus() {
-
+    public Bus(String destination, int seats) {
+        this.destination = destination;
+        this.seats = new ArrayList<>();
     }
 
     public Seat getSeatInfo() {

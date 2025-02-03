@@ -1,4 +1,5 @@
 public class Booking {
+
     private Person booker;
     private Bus bus;
     private Seat seat;
